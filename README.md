@@ -1,7 +1,7 @@
 ### story-upde-README.md
 ## Upgrade Your Node To New Version 0.9.12
 
-- Stop Node First
+# Stop Node First
 
 ```sh sudo systemctl stop story
 ```
@@ -30,5 +30,6 @@ sudo systemctl status story
 
 # Check Log
 
-```sh sudo journalctl -u story -f -o cat ```
+```sh sudo journalctl -u story -f -o cat
+```
   
