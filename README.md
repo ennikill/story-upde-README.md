@@ -1,11 +1,12 @@
 ## story-upde-README.md
 ## Upgrade Your Node To New Version 0.9.12
 - Stop Node First
-- 
+
   ```sh sudo systemctl stop story
 ```
-  
+
 - Download Binanry
+
 ```sh wget https://story-geth-binaries.s3.us-west-1.amazonaws.com/story-public/story-linux-amd64-0.9.12-9ae4a63.tar.gz
 tar -xzvf story-linux-amd64-0.9.12-9ae4a63.tar.gz
 [ ! -d "$HOME/go/bin" ] && mkdir -p $HOME/go/bin
@@ -26,6 +27,7 @@ sudo systemctl status story
 ```
 
 - Check Log
+
 ```sh sudo journalctl -u story -f -o cat
 ```
   
