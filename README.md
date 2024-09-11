@@ -1,10 +1,10 @@
 # story-upde-README.md
 # Upgrade Your Node To New Version 0.9.12
 
-# Stop Node First"
+# Stop Node First
 
-`sh sudo systemctl stop story
-`
+``sh sudo systemctl stop story
+``
 
 
 # Download Binanry
