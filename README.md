@@ -2,7 +2,7 @@
 ## Upgrade Your Node To New Version 0.9.12
 - Stop Node First
 
-  ```sh sudo systemctl stop story
+```sh sudo systemctl stop story
 ```
 
 - Download Binanry
@@ -18,7 +18,7 @@ source $HOME/.bash_profile
 story version
 ```
 
-- #Reload & Start Service
+- # Reload & Start Service
 
 ```sh sudo systemctl daemon-reload && \
 sudo systemctl start story && \
@@ -28,6 +28,5 @@ sudo systemctl status story
 
 - Check Log
 
-```sh sudo journalctl -u story -f -o cat
-```
+```sh sudo journalctl -u story -f -o cat ```
   
