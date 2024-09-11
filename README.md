@@ -3,7 +3,8 @@
 
 - Stop Node First
 
-```sh sudo systemctl stop story```
+```sh sudo systemctl stop story
+```
 
 # Download Binanry
 
