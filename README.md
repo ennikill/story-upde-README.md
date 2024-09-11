@@ -1,5 +1,6 @@
 ### story-upde-README.md
 ## Upgrade Your Node To New Version 0.9.12
+
 - Stop Node First
 
 ```sh sudo systemctl stop story```
@@ -14,15 +15,17 @@ if ! grep -q "$HOME/go/bin" $HOME/.bash_profile; then
 fi
 sudo cp story-linux-amd64-0.9.12-unstable-9ae4a63/story $HOME/go/bin/story
 source $HOME/.bash_profile
-story version```
+story version
+```
 
 
-# Reload & Start Service
+# Reload and Start Service
 
 ```sh sudo systemctl daemon-reload && \
 sudo systemctl start story && \
 sudo systemctl enable story && \
-sudo systemctl status story```
+sudo systemctl status story
+```
 
 # Check Log
 
