@@ -3,8 +3,9 @@
 
 # Stop Node First
 
-``sh sudo systemctl stop story
-``
+```sh
+sudo systemctl stop story
+```
 
 
 # Download Binanry
@@ -31,7 +32,7 @@ sudo systemctl status story
 
 # Check Log
 
-```sh sudo journalctl -u story -f -o cat 
-
+```sh
+sudo journalctl -u story -f -o cat 
 ```
   
